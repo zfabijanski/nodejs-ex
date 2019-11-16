@@ -110,7 +110,7 @@ app.get('/pagecount', function (req, res) {
 });
 
 app.get('/what-to-watch', function (req, res) {
-  res.send('{ what-to-watch: 123 }');
+  res.json({ 'what-to-watch': 123 });
 });
 
 // error handling
